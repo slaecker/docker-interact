@@ -10,8 +10,7 @@ RUN apk add --update --no-cache \
         neovim \
         git \
         openssh && \
-    rm -rf /var/lib/apt/lists/* && \
-    rm /var/cache/apk/*
+    rm -rf /var/lib/apt/lists/*
 
 WORKDIR /volumes
 
